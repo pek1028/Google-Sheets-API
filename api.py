@@ -10,8 +10,8 @@ app = FastAPI(title="DOA")
 
 # Google Sheets credentials
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = 'doa-selangor-e93913d5a942.json'
-SPREADSHEET_ID = '1MGLfUVxUijs2ge7gWyY41eRtckCV-7twyik1zv85fOc'
+SERVICE_ACCOUNT_FILE = 'json_file'
+SPREADSHEET_ID = 'spreadsheet_id'
 SHEET_RANGE = 'Sheet1'
 
 # Pydantic model for append data
